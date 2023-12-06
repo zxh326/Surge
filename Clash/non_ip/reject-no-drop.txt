@@ -1,0 +1,11 @@
+########################################
+# Sukka's Ruleset - Reject No Drop
+# Last Updated: 2023-09-10T17:38:41.930Z
+# Size: 0
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file This file contains rules for domain should be used with REJECT-NO-DROP policy.
+########################################
+################# END ###################

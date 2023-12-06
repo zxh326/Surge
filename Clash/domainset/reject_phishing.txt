@@ -1,0 +1,105 @@
+########################################
+# Sukka's Ruleset - Reject Phishing
+# Last Updated: 2023-12-06T07:51:45.412Z
+# Size: 92
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# The domainset supports enhanced phishing protection
+# Build from:
+#  - https://gitlab.com/malware-filter/phishing-filter
+########################################
++.rf.gd
++.ayra.fun
++.biz.site
++.ewp.live
++.gaerna.vn
++.gareza.vn
++.rdwrtu.cn
++.brizy.site
++.canva.site
++.garenav.vn
++.hostfree.pw
++.u4sfqka.top
++.202305300.cn
++.202306135.cn
++.company.site
++.frappe.cloud
++.kinsta.cloud
++.negocio.site
++.fxcfvgsec.top
++.goserver.host
++.paginas.store
++.sviluppo.host
++.phillyana.info
++.temp-site.link
++.weeblysite.com
++.dfgdfxfgdgg.xyz
++.heniekmusiol.pl
++.mailbutler.link
++.hgcf65edfch.buzz
++.marketmaking.pro
++.maciejdominiak.pl
++.xn--napth-351b.vn
++.aukcja-id746147.pl
++.chronionezakupy.pl
++.isadijkroispsu.xyz
++.oferty-prywatne.pl
++.pl-oferta284518.pl
++.pl-oferta284536.pl
++.pl-oferta285472.pl
++.pl-oferta523571.pl
++.pl-oferta972374.pl
++.zakupy-online24.pl
++.coconutkoboko.click
++.ledenergiedouk.info
++.page-management.ink
++.prywatnaaukcja24.pl
++.bezpieczny-ezakup.pl
++.bezpieczny-zakup247.pl
++.promowaneogloszenie.pl
++.pl-kup-przedmiot3456.pl
++.pl-kup-przedmiot6789.pl
++.pl-kup-przedmiot9012.pl
++.web3validationvault.xyz
++.pl-oferta-prywatna3455.pl
++.pl-oferta-prywatna6735.pl
++.pl-oferta-prywatna6739.pl
++.pl-oferta-prywatna6741.pl
++.pl-oferta-prywatna6742.pl
++.pl-oferta-prywatna8355.pl
++.pl-prywatna-oferta2139.pl
++.pl-prywatna-oferta3210.pl
++.pl-prywatna-oferta3344.pl
++.pl-prywatne-oferty4567.pl
++.pl-prywatne-oferty6789.pl
++.pl-prywatne-oferty7890.pl
++.com-confirmationaddress.xyz
++.pl-oferta-sprzedazy12306.pl
++.pl-oferta-sprzedazy12307.pl
++.pl-oferta-sprzedazy12308.pl
++.pl-oferta-sprzedazy12310.pl
++.pl-oferta-sprzedazy12311.pl
++.pl-oferta-sprzedazy12312.pl
++.pl-oferta-sprzedazy12313.pl
++.pl-oferta-sprzedazy12314.pl
++.pl-oferta-sprzedazy24699.pl
++.pl-oferta-sprzedazy65411.pl
++.pl-oferta-sprzedazy98710.pl
++.pl-oferta-uzytkownika34344.pl
++.pl-oferta-uzytkownika43544.pl
++.pl-oferta-uzytkownika43555.pl
++.pl-oferta-uzytkownika43559.pl
++.pl-prywatne-ogloszenie5585.pl
++.pl-oferta-uzytkownika125533.pl
++.pl-oferta-uzytkownika125535.pl
++.pl-oferta-uzytkownika125536.pl
++.pl-oferta-uzytkownika345555.pl
++.pl-prywatne-ogloszenie54565.pl
++.pl-oferta-uzytkownika1255367.pl
++.pl-oferta-uzytkownika1255368.pl
++.pl-oferta-uzytkownika1255370.pl
++.pl-oferta-uzytkownika1255374.pl
++.pl-prywatne-ogloszenie852948.pl
+################# END ###################

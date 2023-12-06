@@ -1,0 +1,49 @@
+#!name=[Sukka] URL Redirect
+#!desc=Last Updated: 2023-10-29T06:21:10.020Z
+
+[MITM]
+hostname = %APPEND% gravatar.neworld.org, cdn.v2ex.com, cdnjs.loli.net, fonts.loli.net, gstatic.loli.net, themes.loli.net, ajax.loli.net, gravatar.loli.net, gapis.geekzu.org, fonts.geekzu.org, sdn.geekzu.org, cravatar.cn, seccdn.libravatar.org, ghproxy.com, ghps.cc, github.moeyy.xyz, use.sevencdn.com, raw.gitmirror.com, gist.gitmirror.com, raw.githubusercontents.com, gist.githubusercontents.com, cdn.gitmirror.com, raw.fastgit.org, assets.fastgit.org, fastly.jsdelivr.net, gcore.jsdelivr.net, jsdelivr.ops.ci, fonts.ops.ci, jsd.onmicrosoft.cn, npm.onmicrosoft.cn, cdnjs.onmicrosoft.cn, raw.kgithub.com, raw.kkgithub.com, pics.javbus.com, googlefonts.wp-china-yes.net, googleajax.wp-china-yes.net
+
+[URL Rewrite]
+^https?://gravatar\.neworld\.org/(.*) https://secure.gravatar.com/$1 302
+^https?://cdn\.v2ex\.com/gravatar/(.*) https://secure.gravatar.com/avatar/$1 302
+^https?://cdnjs\.loli\.net/(.*) https://cdnjs.cloudflare.com/$1 302
+^https?://fonts\.loli\.net/(.*) https://fonts.googleapis.com/$1 302
+^https?://gstatic\.loli\.net/(.*) https://fonts.gstatic.com/$1 302
+^https?://themes\.loli\.net/(.*) https://themes.googleusercontent.com/$1 302
+^https?://ajax\.loli\.net/(.*) https://ajax.googleapis.com/$1 302
+^https?://gravatar\.loli\.net/(.*) https://secure.gravatar.com/$1 302
+^https?://gapis\.geekzu\.org/ajax/(.*) https://ajax.googleapis.com/$1 302
+^https?://fonts\.geekzu\.org/(.*) https://fonts.googleapis.com/$1 302
+^https?://gapis\.geekzu\.org/g-fonts/(.*) https://fonts.gstatic.com/$1 302
+^https?://gapis\.geekzu\.org/g-themes/(.*) https://themes.googleusercontent.com/$1 302
+^https?://sdn\.geekzu\.org/(.*) https://secure.gravatar.com/$1 302
+^https?://cravatar\.cn/(.*) https://secure.gravatar.com/$1 302
+^https?://seccdn\.libravatar\.org/gravatarproxy/(.*) https://secure.gravatar.com/$1 302
+^https?://ghproxy\.com/(.*) $1 302
+^https?://ghps\.cc/(.*) $1 302
+^https?://github\.moeyy\.xyz/(.*) $1 302
+^https?://use\.sevencdn\.com/css(.*) https://fonts.googleapis.com/css$1 302
+^https?://use\.sevencdn\.com/ajax/libs/(.*) https://cdnjs.cloudflare.com/ajax/libs/$1 302
+^https?://use\.sevencdn\.com/gajax/(.*) https://ajax.googleapis.com/ajax/$1 302
+^https?://use\.sevencdn\.com/chart(.*) https://chart.googleapis.com/chart$1 302
+^https?://use\.sevencdn\.com/avatar(.*) https://secure.gravatar.com/avatar$1 302
+^https?://raw\.gitmirror\.com/(.*) https://raw.githubusercontent.com/$1 302
+^https?://gist\.gitmirror\.com/(.*) https://gist.githubusercontent.com/$1 302
+^https?://raw\.githubusercontents\.com/(.*) https://raw.githubusercontent.com/$1 302
+^https?://gist\.githubusercontents\.com/(.*) https://gist.githubusercontent.com/$1 302
+^https?://cdn\.gitmirror\.com/(.*) https://cdn.statically.io/$1 302
+^https?://raw\.fastgit\.org/(.*) https://raw.githubusercontent.com/$1 302
+^https?://assets\.fastgit\.org/(.*) https://github.githubassets.com/$1 302
+^https?://fastly\.jsdelivr\.net/(.*) https://cdn.jsdelivr.net/$1 302
+^https?://gcore\.jsdelivr\.net/(.*) https://cdn.jsdelivr.net/$1 302
+^https?://jsdelivr\.ops\.ci/(.*) https://cdn.jsdelivr.net/$1 302
+^https?://fonts\.ops\.ci/(.*) https://fonts.googleapis.com/$1 302
+^https?://jsd\.onmicrosoft\.cn/(.*) https://cdn.jsdelivr.net/$1 302
+^https?://npm\.onmicrosoft\.cn/(.*) https://unpkg.com/$1 302
+^https?://cdnjs\.onmicrosoft\.cn/(.*) https://cdnjs.cloudflare.com/ajax/libs/$1 302
+^https?://raw\.kgithub\.com/(.*) https://raw.githubusercontent.com/$1 302
+^https?://raw\.kkgithub\.com/(.*) https://raw.githubusercontent.com/$1 302
+^https?://pics\.javbus\.com/(.*) https://i0.wp.com/pics.javbus.com/$1 302
+^https?://googlefonts\.wp-china-yes\.net/(.*) https://fonts.googleapis.com/$1 302
+^https?://googleajax\.wp-china-yes\.net/(.*) https://ajax.googleapis.com/$1 302

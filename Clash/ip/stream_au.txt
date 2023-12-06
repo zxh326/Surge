@@ -1,0 +1,10 @@
+########################################
+# Sukka's Ruleset - Stream Services' IPs: Oceania
+# Last Updated: 2023-11-01T08:45:11.652Z
+# Size: 0
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+########################################
+################# END ###################
